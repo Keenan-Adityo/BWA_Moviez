@@ -22,9 +22,16 @@ const TextStyle kHeading3 = TextStyle(
   color: kDarkBlue,
 );
 
-const TextStyle kText = TextStyle(
+const TextStyle kSubtitle = TextStyle(
   fontFamily: 'Avenir',
   fontWeight: FontWeight.w400,
   fontSize: 16,
   color: kGrey,
+);
+
+const kTextTheme = TextTheme(
+  headline1: kHeading1,
+  headline2: kHeading2,
+  headline3: kHeading3,
+  subtitle1: kSubtitle,
 );
